@@ -1,0 +1,64 @@
+
+body{
+
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	overflow: auto;
+}
+.name{text-align: center}
+
+.pic{text-align: center}
+
+.words{text-align: center;
+
+margin: 50px;
+font-family:verdana;
+	font-size: 20px;}
+
+.bot { text-align: center;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #F39C12;
+  border: none;
+  color: #F39C12;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.bot span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.bot span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.bot:hover span {
+  padding-right: 25px;
+}
+
+.bot:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.bot{
+	color: white;
+}
+.ffr{height: 30px;
+width: 30px;}
